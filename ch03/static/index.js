@@ -11,8 +11,8 @@ function onLoad() {
   });
 
   sumbit.addEventListener("click", function() {
-      location.href='http://10.150.0.254:5002/'+v
-      n = 0;
+      location.href='http://10.150.0.254:5002/' + v;
+      v = 0;
       num.innerHTML = v;
   })
 }
